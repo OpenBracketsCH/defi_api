@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Defi API",
+    "version": "1.0",
+    "description": "The API delivers all the defibrillators directly from OpenStreetMap as a JSON File."
+  },
+  "servers": [
+    {
+      "url": "https://defikarte-backend.azurewebsites.net/api/defibrillator"
+    }
+  ],
+  "paths": {
+    "/showdefis": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
